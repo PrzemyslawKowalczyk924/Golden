@@ -3,4 +3,21 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+body {
+  background-color: brown;
+}
+
+/*NAVIGATION*/
+.navigation li {
+  display: inline-block;
+  margin-right: 36px;
+  position: relative;
+}
+
+.navigation ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
 /*# sourceMappingURL=style.css.map */
