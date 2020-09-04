@@ -9,6 +9,11 @@ body {
 }
 
 /*NAVIGATION*/
+.container {
+  font-size: xx-large;
+  background: chocolate;
+}
+
 .navigation li {
   display: inline-block;
   margin-right: 36px;
