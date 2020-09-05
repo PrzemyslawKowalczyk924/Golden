@@ -198,9 +198,13 @@ body {
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 .portfolio .container {
     text-align: center;
+    padding-left: 48px;
+    padding-right: 48px;
 }
 .portfolio img {
     object-fit: cover;
@@ -289,6 +293,10 @@ footer .list {
 
 @media (max-width: 767px) and (max-width: 991px) {
 
+    body {
+        padding-left: 0;
+        padding-right: 0;
+    }
     /*NAVIGATION*/  
     .splash .first-line {
         text-align: center;
@@ -329,5 +337,42 @@ footer .list {
         padding-left: auto;
         padding-right: auto;
         text-align: center;
+    }
+
+    /*Image*/
+
+    .portfolio {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .portfolio .col-12.photo {
+        max-width: 250px;
+        width: 100%;
+        margin: auto;
+        padding: 0;
+    }
+    .portfolio img {
+        object-fit: cover;
+        height: 300px;
+        width: 250px;
+        transition: .5s;
+        object-fit: cover;
+    }
+    .portfolio .inner-title {
+        font-size: 20px;
+        font-weight: bold;
+        background: white;
+        width: 250px;
+        margin: auto;
+        padding-top: 5px;
+    }
+    .portfolio .inner-text {
+        background: white;
+        width: 250px;
+        margin: auto;
+        padding-bottom: 10px;
+    }
+    .portfolio .topic {
+        margin-bottom: 15px;
     }
 }
