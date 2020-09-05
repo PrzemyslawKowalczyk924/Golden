@@ -244,4 +244,54 @@ body {
   color: black;
   text-decoration: none;
 }
+
+/*FOOTER*/
+footer {
+  max-width: 935px;
+  margin: auto;
+  background: white;
+}
+
+footer .container {
+  text-align: center;
+}
+
+footer li {
+  font-size: 0;
+  display: inline-block;
+}
+
+footer p {
+  font-size: x-small;
+  font-weight: bold;
+  opacity: 0.7;
+}
+
+footer li i {
+  margin-left: 5px;
+  margin-right: 5px;
+  font-size: 15px;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  top: 50%;
+  bottom: 50%;
+  top: calc(50vh - 65px);
+  background-color: black;
+  border-radius: 50%;
+}
+
+footer .fab {
+  color: white;
+  line-height: 30px;
+}
+
+footer ul li i:hover {
+  transition: .5s;
+  transform: scale(1.5);
+}
+
+footer .list {
+  text-align: left;
+}
 /*# sourceMappingURL=style.css.map */
